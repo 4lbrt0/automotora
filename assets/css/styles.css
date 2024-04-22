@@ -1,8 +1,69 @@
-.carousel-item{
-    height: 700px;
-    color: white;
-    background: black;
-    position: relative;
-    padding: auto;
+.contenedor{
+    margin: 0 auto;
+    width: 70%;
+    padding: 20px;
+    background-color: black;
 }
-
+.carousel-item img{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    
+}
+.contenedorcard{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    padding: 20px;
+}
+.card-body{
+    text-align: center;
+    background-color: black;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url(fondo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.contenedorceo{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.ceo{
+    margin-right: 20px;
+    flex: auto;
+} 
+.ceotext{
+    flex: auto;
+    color: white;
+}
+.contenedorinfo{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    align-items: center;
+}
+.info{
+    flex: auto;
+    margin-right: 20px;
+}
+.textinfo{
+    flex: auto;
+    color: black;
+}
+.menulogin{
+    display: flex;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin: 0;
+}
